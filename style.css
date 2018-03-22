@@ -1,0 +1,101 @@
+body
+{
+    background-color: azure;
+    font-family: 'Indie Flower', cursive;;
+    font-size: 10px;
+    color:darkblue;
+
+}
+#container
+{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#logo
+{
+   color: black;
+    margin-top: 20px;
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: 900;
+    
+
+}
+#menu
+{
+background-color:gray;
+    margin-top: 20px;
+    color: #ffffff;
+    padding: 10px;
+    
+    
+
+}
+#topbar
+{
+   background-color: cadetblue;
+    color: black;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    height: 200px;
+    
+}
+#topbarL
+{
+    float: left;
+    padding: 20px;
+    width: 138px;
+    text-align: center;
+    border-right: 2px #cccccc;
+}
+#topbarR
+{
+    float: left;
+    padding: 20px;
+    width: 760px;
+    font-size: 40px;
+    text-align: justify;
+
+}
+#sidebar
+{
+    float: left;
+    width: 150px;
+    min-height: 620px;
+    padding: 20px;
+    background-color: chocolate;
+    text-align: center;
+    font-size: 18px;
+    border-right: 2px dotted #666666;
+    
+}
+#content
+{
+    float: left;
+    padding: 40px;
+    width: 730px;
+    background-color: chocolate;
+    min-height: 580px;
+    text-align: justify;
+    
+}
+
+.option
+{
+    float: left;
+    min-width: 50px;
+    height: 25px;
+    font-size: 20px;
+    padding: 10px;
+    border-right: 2px dotted #444444;
+    opacity: 0.8;
+
+}
+.option:hover
+{
+ background-color: #000000;
+ cursor: context-menu;
+}
